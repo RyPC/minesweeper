@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+#title {
+    color: white;
+    text-align: center;
+}
+
+.square {
+    width: 10px;
+    height: 10px;
+    float: left;
+    border: white 1px;
+    background-color: black;
+    border-radius: 10%;
+    border-style: solid;
+    text-align: center;
+    display: absolute;
+    color: white;
+    user-select: none;
+}
+.square:hover {
+    background: #15b8cf;
+}
+
+#board {
+/*    background: blue;*/
+    align-content: center;
+}
+
+#container {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+/*    background: green;*/
+    
+}
